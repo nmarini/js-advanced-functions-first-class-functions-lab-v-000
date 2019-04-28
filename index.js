@@ -1,1 +1,3 @@
-const returnFirstTwoDrivers = function(array) {array.map(return array[0] || array[1])}
+const returnFirstTwoDrivers = function(array) {
+  return array.slice(0, 2)
+}
